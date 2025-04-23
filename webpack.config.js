@@ -39,6 +39,13 @@ export default {
           filename: 'images/[name].[hash][ext]'
         }
       },
+      {
+        test: /\.json$/,
+        type: 'json',
+        parser: {
+          parse: JSON.parse
+        }
+      },
     ],
   },
   optimization: {
