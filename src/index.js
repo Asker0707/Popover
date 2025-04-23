@@ -5,14 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn = document.createElement('button');
   btn.id = 'popover-trigger';
   btn.textContent = 'Click to toggle popover';
-  btn.style.position = 'relative'; // для демонстрации ориентации
-  btn.style.margin = '100px';
-  btn.style.color = 'white';
-  btn.style.backgroundColor = 'red'
-  btn.style.border = '5px solid red'
-  btn.style.borderRadius = '5px'
+  btn.classList.add('popover-trigger-btn'); // добавляем CSS класс
   document.body.appendChild(btn);
-
   // Инициализируем popover для созданной кнопки
   new Popover(btn, {
     title: 'Popover title',

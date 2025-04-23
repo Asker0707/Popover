@@ -20,3 +20,12 @@
 .popover-text {
   font-size: 14px;
 }
+
+.popover-trigger-btn {
+  position: relative;
+  margin: 100px;
+  color: white;
+  background-color: red;
+  border: 5px solid red;
+  border-radius: 5px;
+}
