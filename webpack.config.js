@@ -41,10 +41,8 @@ export default {
       },
       {
         test: /\.json$/,
-        type: 'json',
-        parser: {
-          parse: JSON.parse
-        }
+        type: 'javascript/auto',
+        use: ['json-loader']
       },
     ],
   },

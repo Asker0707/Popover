@@ -1,4 +1,3 @@
-// widget.js
 export class Popover {
     constructor(triggerElement, options = {}) {
       if (!triggerElement) throw new Error('Отсутствует элемент-триггер');

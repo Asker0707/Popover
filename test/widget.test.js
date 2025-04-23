@@ -1,6 +1,3 @@
-/**
- * @jest-environment jsdom
- */
 import { Popover } from '../src/widget.js';
 describe('Popover', () => {
   let triggerElement;

@@ -1,4 +1,3 @@
-// index.js
 import { Popover } from './widget.js';
 import './style.css'; // подключение стилей
 document.addEventListener('DOMContentLoaded', () => {
