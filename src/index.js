@@ -1,4 +1,4 @@
-import { Popover } from './widget.js';
+import { Popover } from './js/widget.js';
 import './style.css'; // подключение стилей
 document.addEventListener('DOMContentLoaded', () => {
   // Создаём кнопку, которая будет триггером для popover
