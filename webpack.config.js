@@ -10,7 +10,6 @@ export default {
   output: {
     filename: 'js/[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
     clean: true,
   },
   module: {
